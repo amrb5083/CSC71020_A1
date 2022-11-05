@@ -52,9 +52,11 @@ void add() {
 
 void subtract() {
 	int num1, num2;
+	printf("Enter the first value:");
+	scanf_s("%d", &num1);
+	printf("Enter the second value:");
+	scanf_s("%d", &num2);
+	int result = num1 - num2;
+	printf("%d - %d = %d\n", num1, num2, result);
 
-	num1 = 0;
-	num2 = 42;
-
-	int result = num2 / num1;
 }
